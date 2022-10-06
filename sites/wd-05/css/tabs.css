@@ -1,0 +1,8 @@
+div.tabs_content {
+    clear: left;
+    padding: 1em;
+}
+
+div.tabs_content.inactive {
+	display: none;
+}

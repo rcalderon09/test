@@ -1,0 +1,80 @@
+/********** DEFAULT **********/
+body 							{ margin: 0px; padding: 0px; width:100%; float:left; position:relative; background-color:#ffffff; font-family:Arial, Helvetica, sans-serif; color:#1d1c1b; }
+img 							{ border: 0px; }
+a 								{ text-decoration: none; display:inline-block; color:#0287cd; }
+#Container, #Header, #Body, #Footer	{ clear:both; float:left; position:relative; width:100%; }
+h1, h2, h3, h4, h5, h6 			{ padding:0px; margin:0px; }
+li, ul 							{ margin:0px; padding:0px; list-style-type:none; text-align:left; }
+p 								{ margin:0px; padding:0px; text-align:left; }   
+.AB 							{ position:absolute; }
+.LC, .LC-1, .LC-2, .LC-3 		{ float:left; }
+.RC, .RC-1, .RC-2, .RC-3 		{ float:right; }
+.FC, .FC-1, FC-2, FC-3 			{ width:100%; text-align:left; clear:both; float:left; position:relative; }
+.InnerContainer					{ width:910px; margin:0 auto; clear:both; }
+.Wrapper 						{ width:910px; float:left; position:relative; clear:both; }
+.center 						{ text-align:center; }
+.red							{ color:#d50000; }
+.blue 							{ color:#0287cd; }
+.green							{ color:#007310; }
+h3 								{ font-size:16px; }
+h4 								{ font-size:14px; }
+.nowrap 						{ white-space:nowrap; }
+.gray 							{ color:#666666; }
+.right							{ text-align:right; }
+.bold 							{ font-weight:bold; }
+.pt								{ padding-top:10px; }
+.none							{ display:none; }
+
+/********** HEADER **********/
+#Header1 { font-size:14px; padding:20px 5px 5px; width:900px; line-height:20px; }
+#Header2 { height:138px; background: url(../images/MSB-S_04092013_H1.jpg) no-repeat center top; }
+#Header3 { height:330px; background: url(../images/MSB-S_04092013_H2.jpg) no-repeat center top; }
+#Header h2 { font-size:38px; letter-spacing:-1px; padding-top:15px; padding-bottom:10px; }
+#Header h3 { padding-top:10px; }
+#Header .H1 { padding:35px 0px 0px 28px; }
+#Header .H2 { padding-top:25px; }
+#Header .B1 { top:145px; left:75px; }
+#Header .B2 { top:145px; right:75px; }
+
+/********** BODY **********/
+.MacItem { width:300px; height:207px; background:url(../images/MSB-S_04092013_B.jpg) no-repeat center top; }
+.MacItem.LC { padding-right:4px; }
+.MacItem .ItemPic { width:120px; padding-left:15px; text-align:center; }
+.MacItem .ItemTxt { width:150px; padding-right:10px; }
+.MacItem .ItemTxt.tri { margin-top:-8px; }
+.MacItem .ItemTxt.tri p { height:58px; }
+.MacItem .L-1 { height:57px; }
+.MacItem p { padding-top:0px; padding-bottom:0px; font-size:12px; line-height:17px; height:50px; }
+.MacItem h4 { height:22px; color:#d50000;}
+.MacItem .ItemPrice { float:left; height:30px; line-height:30px; font-weight:bold; font-size:22px; width:80px; text-align:center; position:relative; padding-bottom:8px; clear:both; }
+.MacItem .ITline { width:80px; height:30px; background:url(../images/MSB-S_04092013_BlineS.jpg) no-repeat center; position:absolute; top:0px; left:0px; }
+.MacItem h3 { text-align:center; padding-top:23px; }
+.MacItem h3.duo { padding-top:11px; }
+
+/********** FOOTER **********/
+#Footer1 { height:260px; background:url(../images/MSB-S_04092013_F.jpg) no-repeat center top; }
+#Footer1 h3 { padding-top:10px; }
+#Footer2 h3 { padding-bottom:5px; }
+#Footer2 .FC { padding-bottom:5px; }
+#Footer2 a { text-decoration:underline; }
+#Footer2 p { font-size:12px; color:#aaaaaa; padding-top:10px; padding-bottom:20px; }
+#Footer .H3 { padding-top:35px; padding-bottom:25px; }
+#Footer .B3 { top:25px; left:35px; text-align:center; font-weight:bold; font-size:13px; }
+#Footer .CC { top:120px; right:15px; font-size:20px; width:260px; font-weight:bold; }
+#Footer .CC .FC { padding-bottom:5px; }
+#Footer .CC .LC { width:178px; text-align:right; }
+#Footer .CC .RC { width:70px; }
+
+/*overlay timer*/
+.Clock 							{ background: url(../images/MSB-S_04092013_timer.png) left 0px; width: 396px; height: 115px; position:absolute; top:14px; right:6px; }
+.timer-overlay					{ position:absolute; width:84px; height:60px; background: url(../images/timer_overlay.png) no-repeat; z-index:1;}
+.timer-overlay1					{ left: 17px; top: 22px;}
+.timer-overlay2					{ left: 109px; top: 22px;}
+.timer-overlay3					{ left: 201px; top: 22px;}
+.timer-overlay4					{ left: 293px; top: 22px;}
+
+/*Buttons*/
+a.ReadMore						{ font-size:12px; color:#0287cd; float:left; padding-right:9px; background:url(../images/MSB-S_04092013_rm.png) no-repeat right center; white-space:nowrap; }
+a.ReadMore:hover				{ text-decoration:underline; background-position:right center;  }
+a.download						{ width:249px; height:50px; background:url(../images/MSB-S_04092013_DL.png) no-repeat left top; }
+a:hover							{ text-decoration:underline; background-position:left bottom; }
