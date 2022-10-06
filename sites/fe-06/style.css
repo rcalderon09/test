@@ -1,0 +1,160 @@
+@charset "utf-8";
+*		{ margin:0; padding:0;}
+img		{ border:0; behavior: url(iepngfix.htc);}
+div 	{ behavior: url(iepngfix.htc); }
+h1, h2, h3, h4		{ margin-bottom:12px;}
+p		{ }
+a		{ text-decoration:none; color:#007ef4;}
+.clear	{ clear:both;}
+.hidden	{ display:none;}
+.f-l	{ float:left;}
+.f-r	{ float:right;}
+
+html	{ background:#0085b9;}
+body	{ background:url(images/freeprints-bg1.jpg) repeat-x top #FFF; font-family:'Droid Sans', Arial, Verdana, Helvetica, sans-serif; color:#555656; font-size:14px;}
+
+#container	{ width:100%; height:100%; position:relative;  display:block;}
+#wrapper	{ width:888px; margin:0 auto; display:block; position:relative;}
+	#banner-top		{ padding:25px 58px 15px 0px;}
+		.scrnshot	{ width:306px; margin:0 0px 0 58px !important;}
+		.scrnshot2	{ display:none; width:160px; margin:0 0px 0 8px !important;}
+		#banner-top	.f-l-b	{ margin-left:30px; width:427px; position:relative; z-index:100;}
+		.logo		{ width:427px; margin:10px 0 0 0;}
+			.logo img	{ width:427px;}
+		.tag-line	{ width:395px; margin:15px 20px 0 12px;}
+			.tag-line img	{ width:395px;}
+		.button		{ margin:20px 140px 20px 92px;}
+			.button img	{ width:193px;}
+		
+	#text-content	{ position:relative; margin:0 0 2px 22px;}
+		.im-l		{ position:absolute; left:-115px; bottom:0;}
+			.im-l img	{ width:92px; height:195px;}
+		.im-r		{ z-index:2; position:absolute; right:-70px; top:-200px;}
+			.im-r img	{ width:248px; height:456px;}
+		
+		#text-content .f-l { width:440px; text-align:center; z-index:90; position:relative; display:block;}
+			#text-content .f-l h2	{ font-size:18px; color:#0085b9;}
+			#text-content .f-l h3	{ font-size:15px; margin-bottom:18px;}
+			#text-content .f-l p	{ text-align:justify; line-height:21px;}
+			#text-content .f-l ul	{ margin:28px 0 0 0; font-weight:bold; font-size:15px; text-align:left; list-style:none;}
+				#text-content .f-l li	{ float:left; margin:5px;}
+		#text-content .f-r	{ position:relative; display:block; width:410px; }
+			#text-content .f-r .gray-con	{ width:320px; padding:30px; margin:0 0px 0 15px; background:#edf2f2;-moz-border-radius: 8px; -webkit-border-radius: 8px; border-radius: 8px; behavior: url(PIE.htc);}
+			#text-content .f-r h2	{ font-size:15px;}
+			#text-content .f-r ul	{ margin:5px 0 5px 10px; list-style:none;}
+				#text-content .f-r li	{ background:url(images/freeprints_bullet.jpg) 0 8px no-repeat; padding:2px 0 2px 15px;}
+			#text-content .f-r .download-ftr	{ margin:15px 0 10px 0; font-size:15px;}
+				#text-content .f-r .download-ftr p	{ float:left; margin:20px 0px 0px 0; width:220px;}
+					#text-content .download-ftr .btn	{ margin:0 15px 0 0;}
+				  		#text-content .download-ftr img	{ float:right; width:173px;}
+			
+
+
+#footer	{ background: url(images/freeprints-ftrbg.jpg) top repeat-x #0085b9; padding:25px 0 50px 0; text-align:center; font-size:11px; color:#FFFFFF;}
+
+
+/*------------------------------------*\
+	IPHONE
+\*------------------------------------*/
+
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+
+	img{
+		max-width: 100%;
+		height: auto;
+	}
+	@media only screen and (min-width: 480px) and (max-width: 767px) {
+body	{ background:url(images/freeprints-bg1.jpg) 0 -33px repeat-x #FFF; font-family:'Droid Sans', Arial, Verdana, Helvetica, sans-serif; color:#555656; font-size:13px;}
+
+#container	{}
+#wrapper	{ width:480px; margin:0 auto;}
+	#banner-top		{ padding:20px 0px 15px 0px;}
+		.scrnshot	{ display:none; width:306px; margin:0 0px 0 58px !important;}
+		.scrnshot2	{ display:block; width:160px; margin:0 0px 0 8px !important;}
+		#banner-top	.f-l-b	{ margin-left:10px; width:290px; position:relative; z-index:100;}
+		.logo		{ margin:20px 0 0 0;}
+			.logo img	{ width:280px !important;}
+		.tag-line	{ margin:20px 0px 0 0px;}
+			.tag-line img	{ width:279px !important;}
+		.button		{ width:144px; margin:20px 0px 20px 68px;}
+			.button img	{ width:144px;}
+			
+		#text-content	{ position:relative; margin:0 auto; width:460px;}
+		.im-l		{ position:absolute; left:-95px; bottom:0;}
+			.im-l img	{ width:73px !important; height:155px !important;}
+		.im-r		{ z-index:2; position:absolute; right:-70px; top:-170px;}
+			.im-r img	{ width:163px !important; height:300px !important;}
+		
+		#text-content .f-l { float:none !important; width:440px; text-align:center; z-index:90; position:relative; display:block; margin:0 auto;}
+			#text-content .f-l h2	{ font-size:18px; color:#0085b9;}
+			#text-content .f-l h3	{ font-size:15px; margin-bottom:18px;}
+			#text-content .f-l ul 	{ display:none;}
+		#text-content .f-r 			{ width:auto !important;}
+		#text-content .f-r .gray-con	{ display:none;}
+		
+			#text-content .download-ftr	{ margin:15px auto 10px auto; width:450px; font-size:14px; text-align:center;}
+				#text-content .download-ftr p	{ float:none !important; width:100% !important; text-align:center; margin:5px 0!important;}
+					#text-content .download-ftr .btn	{ width:144px; margin:0 auto;}
+				  #text-content .download-ftr img	{ float:none !important; margin:12px auto !important; width:144px;}
+}
+
+	@media only screen and (min-width: 320px) and (max-width: 479px) {
+   /* CSS overrides for mobile here */
+body	{ background:url(images/freeprints-bg1.jpg) 0 -84px repeat-x #FFF; font-family:'Droid Sans', Arial, Verdana, Helvetica, sans-serif; color:#555656; font-size:13px;}
+
+#container	{}
+#wrapper	{ width:290px; margin:0 auto;}
+	#banner-top		{ padding:10px 0px 15px 0px;}
+		.scrnshot	{ display:none !important;}
+		.scrnshot2	{ display:none !important;}
+		#banner-top	.f-l-b	{ margin-left:5px; width:200px; position:relative; z-index:100;}
+		.logo		{ margin:20px 0 0 0;}
+			.logo img	{ width:280px !important;}
+		.tag-line	{ margin:20px 0px 0 0px;}
+			.tag-line img	{ width:279px !important;}
+		.button		{ width:144px; margin:20px 0px 20px 68px;}
+			.button img	{ width:144px;}
+			
+		#text-content	{ position:relative; margin:0 auto; width:300px;}
+		.im-l		{ position:absolute; left:-95px; bottom:0;}
+			.im-l img	{ width:73px !important; height:155px !important;}
+		.im-r		{ z-index:2; position:absolute; right:-70px; top:-170px;}
+			.im-r img	{ width:163px !important; height:300px !important;}
+		
+		#text-content .f-l { text-align:center; z-index:90; position:relative; display:block; width:290px;}
+			#text-content .f-l h2	{ font-size:18px; color:#0085b9;}
+			#text-content .f-l h3	{ font-size:15px; margin-bottom:18px;}
+			#text-content .f-l ul 	{ display:none;}
+		#text-content .f-r 			{ float:none; width:auto !important; margin:0 auto !important; width:290px !important;}
+		#text-content .f-r .gray-con	{ display:none;}
+		
+			#text-content .download-ftr	{ margin:15px auto 10px auto !important; width:290px !important; font-size:14px; text-align:center; position:relative; display:block;}
+				#text-content .download-ftr p	{ float:none !important; width:100% !important; text-align:center; margin:5px 0!important;}
+					#text-content .download-ftr .btn	{ width:144px; margin:0 auto;}
+				  #text-content .download-ftr img	{ float:none !important; margin:12px auto !important; width:144px;}
+}
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+	@media only screen and (min-width: 768px) and (max-width: 959px) {
+#container	{}
+#wrapper	{ width:750px; margin:0 auto;}
+	#banner-top		{ padding:20px 0px 15px 0px;}
+		.scrnshot	{ width:306px; margin:10px 0px 0 30px !important;}
+		#banner-top	.f-l-b	{ margin:0 0 0 15px; width:360px; position:relative; z-index:100;}
+			.scrnshot img	{ width:280px; height:auto;}
+			.logo img		{ width:360px; margin-top:20px;}
+			.tag-line img	{ width:340px;}
+			.button img		{ width:173px;}
+			
+		#text-content	{ width:750px; position:relative; margin:0 auto; font-size:13px;}
+		
+		#text-content .f-l { width:380px;}
+		#text-content .f-r { width:330px;}
+		#text-content .f-r .gray-con	{ width:300px !important; margin:0 auto;}
+		
+			#text-content .download-ftr	{ margin:15px auto 10px auto; width:360px; font-size:14px; text-align:center;}
+				#text-content .download-ftr p	{ float:none !important; width:100% !important; text-align:center; margin:5px 0!important;}
+					#text-content .download-ftr .btn	{ width:144px; margin:0 auto;}
+				  #text-content .download-ftr img	{ float:none !important; margin:12px auto !important; width:144px;}
+		
+}

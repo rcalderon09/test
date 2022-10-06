@@ -1,0 +1,124 @@
+/*** DEFAULT STYLES ****/
+
+body { width:100%; float:left; margin:0px; padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:14px; background-color:#0184B8; color:#555656; min-width:860px; }
+img { border: 0px; z-index:1; }
+a { text-decoration: none; position:relative; z-index:1; }
+p { margin:0px; padding:10px 0px 0px 0px; }
+
+#OuterContainer { width:100%; float:left; background:url(../images/freeprints-bg1.jpg) repeat-x left top #ffffff; -webkit-text-size-adjust: none; } 
+#Container { width:100%; float:left; background:url(../images/freeprints-ftrbg.jpg) repeat-x left bottom transparent; min-width:860px; -webkit-text-size-adjust: none; position:relative; }
+
+#Header, #BodyContent, #Footer { position:relative; }
+
+.wrapper { width:820px; clear:both; float:left; }
+
+.InnerContainer { width:820px; margin:0 auto; clear:both; padding:0px 20px; }
+
+.sep { width:100%; display:block; clear:both; }
+.left { float:left; }
+.right { float:right; }
+.center { display:block; text-align:center; clear:both; }
+.fullcontent { width:100%; text-align:left; display:block; clear:both; }
+
+h1, h2, h3 { padding:0px; margin:0px; }
+
+h2 { color: #0085B9; font-size: 18px; text-align:center; padding-bottom:15px; }
+h3 { font-size: 15px; text-align:center; padding-bottom:10px; }
+
+.backward { position:relative; z-index:5; }
+.forward { position:relative; z-index:10; }
+.topmost { position:relative; z-index:100; display:block; }
+
+ul, li { margin:0px; padding:0px; list-style-type:none; text-align:left; }
+
+a:hover { background-position:0px bottom; text-decoration:underline; }
+.Extra { 
+    margin: 0 auto;
+    overflow: hidden;
+    clear: both;
+    min-width: 860px;
+    position: relative;
+	height:700px;
+	margin-bottom:-700px;
+	top:-200px;
+	}
+.Mright { 
+    background: url("../images/CA_12272011_Gright.png") no-repeat scroll left top transparent;
+    height: 1000px;
+    margin: 0 50% 0 0;
+    position: absolute;
+    right: -495px;
+    top: 0;
+    z-index: 19; }
+.Mleft  { 
+    background: url("../images/CA_12272011_Gleft.png") no-repeat scroll right top transparent;
+    height: 300px;
+    left: -515px;
+    margin: 0 0 0 50%;
+    position: absolute;
+    bottom: 0;
+    z-index: 19;
+	}
+/*** DEFAULT STYLES ****/
+
+/*** HEADER STYLES ****/
+#Header { padding:25px 0px 15px 0px; }
+.H-R1 { padding:10px 0px 15px 0px; }
+.H-R3 { padding:20px 0px; }
+#Header .left { padding-left:30px; }
+#Header .right { padding-right:35px; }
+/*** HEADER STYLES ****/
+
+/*** BODY STYLES ****/
+#BodyContent { padding:0px 0px 20px 0px; }
+#BodyContent .left { width:410px; }
+	#BodyContent .left .B-L1 p { text-align:justify; line-height:21px; }
+#BodyContent .right { width:400px; }
+	#BodyContent .right .rounded { background:#EDF2F2; -moz-border-radius: 7px; -webkit-border-radius: 7px; -khtml-border-radius: 7px; border-radius: 7px; }
+	#BodyContent .right .rounded.R-L1{ width:320px; padding:30px; float:right; position:relative; background:#EDF2F2; }
+	#BodyContent .right .rounded.R-L1 h3 { text-align:left; }
+#BodyContent ul.first { padding-bottom:10px; }
+	#BodyContent ul li { background:url(../images/freeprints_bullet.jpg) 0 8px no-repeat; padding:2px 0 2px 15px; margin-left:20px;}
+#BodyContent ul.icon { list-style-type:none; }
+	#BodyContent ul.icon li { padding:0px 10px 0px 0px; margin:0px; background:none; float:left; }
+	#BodyContent ul.icon h3 { text-align:left; padding:20px 0px; }
+#BodyContent .fullcontent.R-L2 { padding-top:20px; }
+	#BodyContent .R-left { float:left; white-space:nowrap; padding:25px 0px; }
+	#BodyContent .R-right { float:right; }
+/*** BODY STYLES ****/
+
+/*** FOOTER STYLES ****/
+#Footer { color: #FFFFFF; font-size: 11px; padding: 25px 0 50px; text-align: center; }
+/*** FOOTER STYLES ****/
+
+img {
+		max-width: 100%;
+		height: auto;
+	}
+
+	/* Tablet Portrait size to standard 960 (devices and browsers)*/
+	@media only screen and (min-width: 768px) and (max-width: 959px) {
+		
+		body { min-width:760px; }
+		.wrapper { width:720px; }
+		.InnerContainer { width:720px; padding:0px 20px; }
+				
+	}
+
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {
+		 
+		body { min-width:480px; }
+		.wrapper { width:460px; }
+		.InnerContainer { width:450px; padding:0px 15px; }
+		
+	}
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (min-width: 320px) and (max-width: 480px) {
+/* Styles */
+		body { min-width:320px; }
+		.wrapper { width:320px; }
+		.InnerContainer { width:300px; padding:0px 10px; }
+		
+	}

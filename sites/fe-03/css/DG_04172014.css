@@ -1,0 +1,43 @@
+/********** DEFAULT **********/
+/********** DEFAULT **********/
+body { margin:0px; padding:0px; font-family: 'Roboto', sans-serif; font-size:14px; color:#333333; background:none #efefef; position:relative;  }
+#Container { width:100%; float:left; position:relative; }
+.InnerContainer { width:100%; float:left; display:block; position:relative; }
+.Wrapper { width:602px; margin:0 auto; }
+.InnerWrapper { width:600px; float:left; display:block; position:relative; border-left:1px solid #e8e8e8; border-right:1px solid #e8e8e8; }
+.top { background-color:#ffffff; }
+img { border: 0px; }
+a { text-decoration: none; position:relative; z-index:1; }
+p { margin:0px; padding:0px 0px 10px; }
+.btn { display:inline-block; }
+.rounded { -moz-border-radius: 3px; -webkit-border-radius: 3px; -khtml-border-radius: 3px; border-radius: 3px; behavior: url(../js/PIE.htc); position:relative; }
+.full { width:100%; display:block; clear:both; float:left; position:relative; }
+.left { float:left; }
+.right { float:right; }
+.center { text-align:center; }
+ul, li { list-style-type:none; margin:0px; padding:0px; }
+
+.R1 { border-top: 4px solid #B11926; }
+.R1a { background:url(../images/DG_04172014_bg1.jpg) no-repeat left top; width: 270px; height:44px; padding-left:27px; font-size:30px; font-weight:700; color:#ffffff; line-height:39px; }
+.R2 { background-color:#B11926; padding:25px 0px 30px; }
+.R3 { width:285px; padding-right:25px; }
+.R3a { font-size:24px; font-weight:500; line-height:65px; }
+.R3b { width:148px; }
+.R4 { width:440px; }
+.R4a { width:138px; font-size:32px; line-height:30px; font-weight:700; color:#ffffff; padding-top:4px; }
+.R4b { font-size:60px; font-weight:700; line-height:60px; color:#ffda0e; letter-spacing:-4px; }
+.R4c { font-size:40px; font-weight:700; line-height:47px; padding-left:8px; color:#ffda0e; letter-spacing:-1px; }
+
+ul.check { padding-top:22px; }
+ul.check li { padding-bottom:9px; padding-left:25px; font-size:14px; line-height:18px; font-weight:300; background:url(../images/DG_04172014_bul.jpg) no-repeat left 4px; }
+
+a.buy1 { width:237px; height:53px; background:url(../images/TA_03182014_Btn1.png) no-repeat left top; }
+a.buy2 { width:237px; height:53px; background:url(../images/TA_03182014_Btn2.png) no-repeat left top; }
+
+h1, h2, h3, h4, h5, h6 { font-weight:bold; padding:0px; margin:0px; }
+.h1 h1, .h2 h2, .h3 h3, .h4 h4, .h5 h5, .h5 h5  { position:absolute; top:-9999px; z-index:-9; }
+.h1, .h2, .h3, .h4, .h5, .h6 { overflow:visible; }
+h1 { font-size:81px; line-height:80px; text-align:center; font-weight:500; letter-spacing:-2px; padding-top:15px; }
+h2 { font-size:35px; line-height:35px; text-align:center; font-weight:400; letter-spacing:-1px; padding-bottom:25px; }
+
+a:hover { background-position: left bottom !important;}
