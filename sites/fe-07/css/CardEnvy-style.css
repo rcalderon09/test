@@ -1,0 +1,124 @@
+/*** DEFAULT STYLES ****/
+
+body { width:100%; float:left; margin:0px; padding:0px; font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif; font-size:13px; color:#ffffff; background-color:#000000; }
+img { border: 0px; }
+a { text-decoration: none; position:relative; z-index:1; }
+p { margin:0px; padding:0px 0px 10px; }
+#Container { width:100%; float:left; background: url(../../../../FREEPRINTS/images/freeprints-ftrbg.jpg) repeat-x left bottom; -webkit-text-size-adjust: none; }
+
+#Header, #BodyContent, #Footer, #Banner { width:100%; clear:both; float:left; min-width:1020px; }
+
+.InnerContainer { width:980px; margin:0 auto; }
+
+#InnerHeader, #InnerBodyContent, #InnerFooter, #InnerBanner { width:980px; padding:0px; clear:both; float:left; position:relative; overflow:visible; }
+
+.sep { width:100%; display:block; clear:both; background:url(../images/CA_12272011_sep.png) no-repeat center top; height:10px; }
+.left { float:left; }
+.right { float:right; }
+.center { display:block; text-align:center; clear:both; }
+
+.backward { position:relative; z-index:5; }
+.forward { position:relative; z-index:10; }
+.topmost { position:relative; z-index:100; display:block; }
+
+ul, li { margin:0px; padding:0px; list-style-type:none; text-align:left; }
+
+a.DLnow span.FreeApp { position:absolute; right:-10px; top:-28px; }
+a.AppStore  span.FreeApp  { position:absolute; left:-90px; top:-28px; }
+a.AppStore { width:200px; height:50px; display:block; margin:50px; margin-right:40px; background:url(../images/CA_12272011_AppStore.png) no-repeat left top; }
+a.DLnow { width:350px; height:50px; display:block; margin:20px auto 0; padding-right:50px; background:url(../images/CA_12272011_DLbtn.png) no-repeat left top; }
+a.CElogo { width:294px; height:220px; background:url(../images/CA_12272011_CElogo.png) no-repeat left top; position:absolute; top:0px; left:-515px; margin-left:50%; }
+
+a:hover { background-position:0px bottom; text-decoration:underline; }
+
+/*** DEFAULT STYLES ****/
+
+/*** BODY STYLES ****/
+#BodyContent.BodyA { background:url(../images/CA_12272011_iMac.png) no-repeat center 120px; }
+#BodyContent.BodyA .center { height:170px; }
+#BodyContent.BodyA a.DLnow { margin-bottom:60px; }
+#BodyContent.BodyA .left { width:510px; line-height:25px; }
+#BodyContent.BodyB { background:url(../images/CA_12272011_L1bg.png) repeat left top; }
+#BodyContent.BodyBBG { background:url(../images/CA_12272011_featuresIMG.png) no-repeat center 5px; }
+#BodyContent.BodyBBG ul { padding-bottom:60px; }
+#BodyContent.BodyB .left { width:410px; line-height:25px; }
+#BodyContent.BodyC { background:url(../images/CA_12272011_L2bg.png) repeat left top; }
+#BodyContent.BodyC a.AppStore { margin:40px auto; }
+#BodyContent strong { color:#00a1f9 }
+#Banner { height:300px; background-color:#151515; }
+#BodyContent li { padding-left:25px; margin-left:10px; padding-bottom:5px; background:url(../images/ce_web_home-06_31.png) no-repeat left 5px; }
+/*** BODY STYLES ****/
+
+/*** FOOTER STYLES ****/
+#Footer { height:100px; background:url(../images/CA_12272011_Fbg.png) repeat-x left top transparent; }
+#InnerFooter { text-align:center; font-size:11px; padding-top:30px; line-height:18px; white-space:nowrap; }
+#InnerFooter a { color:#f107a3; }
+/*** FOOTER STYLES ****/
+
+/*** SLIDER STYLES ****/
+.slider{
+	background: url(../images/CA_12272011_CSimg.jpg) repeat-x center top;
+	width: 280150px !important;
+	position: absolute !important;
+	margin-left: 50% !important;
+	left: -140000px; 
+	height: 300px;
+}
+
+.scroll{
+	height: 300px;
+	position: relative;
+	clear:both;
+	min-width:1020px;
+}
+
+.scroll {
+    background: none repeat scroll 0 0 #151515;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.prev {
+	position: absolute;
+	top: 130px;
+	left: -423px;
+	width: 40px;
+	height: 40px;
+	cursor: pointer;
+	background:url(../images/CA_12272011_A1.png) no-repeat left top;
+	margin: 0 0 0 50%;
+	z-index: 20;
+}
+			
+.next {
+    position: absolute;
+    top: 130px;
+    right: -423px;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    background:url(../images/CA_12272011_A2.png) no-repeat left top;
+    margin: 0 50% 0 0;
+	z-index: 20;
+}
+.Sleft {
+	height:300px; 
+	background:url(../images/CA_12272011_Gleft.png) no-repeat right top;
+	margin: 0 0 0 50%;
+	left:-5555px;
+	width:5000px;
+	position:absolute;
+	z-index: 19;
+	top:0px;
+}
+.Sright {
+	height:300px; 
+	background:url(../images/CA_12272011_Gright.png) no-repeat left top;
+	margin: 0 50% 0 0;
+	right:-5555px;
+	width:5000px;
+	position:absolute;
+	z-index: 19;
+	top:0px;
+}
+/*** SLIDER STYLES ****/
